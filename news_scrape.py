@@ -47,15 +47,19 @@ def get_news(api_key, query):
 def main():
     api_key = os.getenv('NEWS_API_KEY')
 
-    # Movies released in June and July 2023
-    movies = ['Barbie', 'Oppenheimer', 'Mission Impossible - Dead Reckoning Part One',
-              'Spider-Man: Across the Spider-Verse', 'The Flash', 'Indiana Jones and the Dial of Destiny']
+    # Movies released in Fall 2023
+    movies = ['Five Nights at Freddy’s', 'Napoleon',
+              'The Hunger Games: Ballad of Songbirds and Snakes', 'The Marvels', 'Priscilla', 'Killers of the Flower Moon']
 
-    all_articles = []
+    # create dict to store all articles and count per movie
+    all_articles = {}
 
     for movie in movies:
         movie_articles = get_news(api_key, movie)
-        all_articles.extend(movie_articles)
+        all_articles[movie] = {
+            'count': len(movie_articles),
+            'articles': movie_articles
+        }
 
     # Save the articles to a JSON file
     with open('movie_articles.json', 'w', encoding='utf-8') as file:
