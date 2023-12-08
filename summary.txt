@@ -1,0 +1,109 @@
+*topics and open code results are listed below
+
+|-----------------------------------------|--------------------|-------------------------------|
+| Predefined Category                     | Related LDA Topics | Key Words from LDA            |
+|-----------------------------------------|--------------------|-------------------------------|
+| Movie Reviews and Critiques             | Topic 4, Topic 8   | review, critic, adaptation,   |
+|                                         |                    | horror                        |
+|-----------------------------------------|--------------------|-------------------------------|
+| Box Office Performance                  | Topic 1, Topic 6   | box_office, weekend, million, |
+|                                         |                    | record                        |
+|-----------------------------------------|--------------------|-------------------------------|
+| Movie Recommendations and Comparisons   | Topic 5            | cameo, fnaf, bucket,          |
+|                                         |                    | animatronics                  |
+|-----------------------------------------|--------------------|-------------------------------|
+| Streaming and Release Information       | Topic 6, Topic 2   | peacock, streaming, release,  |
+|                                         |                    | watch                         |
+|-----------------------------------------|--------------------|-------------------------------|
+| Behind-the-Scenes and Production        | Topic 3            | blumhouse, animatronics, set, |
+| Insights                                |                    | character                     |
+|-----------------------------------------|--------------------|-------------------------------|
+| Cultural Impact and Fandom              | Topic 7            | credit, teddy, bear, fnaf     |
+|-----------------------------------------|--------------------|-------------------------------|
+| Adaptation from Video Game              | Topic 8            | video_game, adaptation, horror|
+|-----------------------------------------|--------------------|-------------------------------|
+| Streaming Records and Comparisons       | Topic 6            | peacock, streaming, record,   |
+|                                         |                    | office                        |
+|-----------------------------------------|--------------------|-------------------------------|
+
+
+TOPIC 1
+Articles focusing on reviewing the movie, discussing its strengths, weaknesses, and overall quality.
+Example: "Five Nights at Freddy’s Animatronics Steal the Show in Their Movie Debut" by Gizmodo.com.
+Box Office Performance:
+
+TOPIC 2
+Articles discussing the film's financial success, box office numbers, and comparison with other movies.
+Example: "Despite Negative Reviews, Five Nights At Freddy’s Film Killing At The Box Office" by Kotaku.
+Movie Recommendations and Comparisons:
+
+TOPIC 3
+Articles comparing "Five Nights at Freddy's" with other movies or suggesting similar movies to watch.
+Example: "5 movies like Five Nights at Freddy’s you should watch right now" by Digital Trends.
+Streaming and Release Information:
+
+TOPIC 4
+Articles focusing on where and how the movie can be watched, including streaming platforms and release dates.
+Example: "Five Nights at Freddy’s, new Exorcist movie, The Nun II, and every new movie to watch at home this weekend" by Polygon.
+Behind-the-Scenes and Production Insights:
+
+TOPIC 5
+Articles providing insights into the making of the movie, interviews with cast and crew, or production details.
+Example: "How Five Nights at Freddy’s Adapts a Beloved Horror Video Game" by Time.
+Cultural Impact and Fandom:
+
+TOPIC 6
+Articles discussing the impact of the movie on popular culture, fan reactions, and related phenomena.
+Example: "The Five Nights at Freddy’s movie is a dizzying mashup of decades of culture" by Polygon.
+Adaptation from Video Game:
+
+TOPIC 7
+Articles focusing specifically on the adaptation process from the original video game to the movie.
+Example: "Five Nights at Freddy’s review: a middling video game adaptation" by Digital Trends.
+Streaming Records and Comparisons:
+
+TOPIC 8
+Articles discussing how the movie performs on streaming platforms and its comparison with other streaming titles.
+Example: "Five Nights at Freddy's Trounces Mario and Halloween Ends to Smash Streaming Records" by Gizmodo.com.
+
+
+
+LDA:
+Topic 1:
+   Words: weekend, movie, new, watch, box_office, horror, like, frame, animatronic, video_game
+   Weights: 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
+
+
+Topic 2:
+   Words: watch, horror, video_game, movie, peacock, release, lillard, new, box_office, best
+   Weights: 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
+
+
+Topic 3:
+   Words: blumhouse, horror, set, release, game, weekend, theater, animatronics, character, popular_video
+   Weights: 0.02, 0.02, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
+
+
+Topic 4:
+   Words: get, box_office, pizza, twist, box, weekend, horror, le, theater, review
+   Weights: 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
+
+
+Topic 5:
+   Words: cameo, fnaf, global, bucket, international_box, office, animatronics, see, disney, show
+   Weights: 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
+
+
+Topic 6:
+   Words: peacock, first, box_office, streaming, horror, day, weekend, record, watched, opening
+   Weights: 0.03, 0.02, 0.02, 0.02, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01
+
+
+Topic 7:
+   Words: credit, day, end, fnaf, bear, letter, mean, release_date, teddy, opening
+   Weights: 0.02, 0.02, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
+
+
+Topic 8:
+   Words: video_game, box_office, adaptation, million, horror, hit, review, critic, one, big
+   Weights: 0.03, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
